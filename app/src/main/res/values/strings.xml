@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Examen</string>
+    // Estos string son para la aplicacion de calcular productos
+    <string name="Cantidad">Cantidad</string>
+    <string name="Precio">Precio</string>
+    <string name="Name">Producto</string>
+</resources>

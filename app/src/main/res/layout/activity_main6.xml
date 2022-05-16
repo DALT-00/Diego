@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B5A7F3"
+    tools:context=".MainActivity6">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="333dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:text="Ingrese un número para la serie ULAM"
+        android:textColor="#121111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ul1"
+        android:layout_width="333dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Número"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/ul2"
+        android:layout_width="333dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="resultado"
+        android:textColor="#100F0F"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ul1" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="333dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="332dp"
+        android:gravity="center"
+        android:text="Ingrese un numero para la serie FIBONNACI"
+        android:textColor="#100F0F"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/fi1"
+        android:layout_width="333dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Número"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/fi2"
+        android:layout_width="333dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="Resultado2"
+        android:textColor="#100F0F"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fi1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="24dp"
+        android:onClick="ulam"
+        android:text="Calcular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ul2" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="24dp"
+        android:onClick="Fibo"
+        android:text="Calcular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fi2" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="48dp"
+        android:onClick="lo"
+        android:text="Regresar al menú principal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
+</androidx.constraintlayout.widget.ConstraintLayout>

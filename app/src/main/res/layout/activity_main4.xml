@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B5A7F3"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="333dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="Ingrese el nombre del producto"
+        android:textColor="#100F0F"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="333dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/Name"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t1" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="333dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="Precio por producto"
+        android:textColor="#0C0C0C"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt1" />
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="333dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/Precio"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t2" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="333dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="Cantidad de productos"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt2" />
+
+    <EditText
+        android:id="@+id/edt3"
+        android:layout_width="333dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/Cantidad"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t3" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#07CC5D"
+        android:onClick="Cal"
+        android:text="Calcular "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt3" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#188C6B"
+        android:onClick="re"
+        android:text="Regresar al menú principal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
+</androidx.constraintlayout.widget.ConstraintLayout>

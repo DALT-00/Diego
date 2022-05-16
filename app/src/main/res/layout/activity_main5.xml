@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B5A7F3"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:id="@+id/tex"
+        android:layout_width="333dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="48dp"
+        android:text="TextView"
+        android:textColor="#0B0A0A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tex2"
+        android:layout_width="333dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="30dp"
+        android:text="TextView"
+        android:textColor="#090909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tex" />
+
+    <TextView
+        android:id="@+id/tex3"
+        android:layout_width="333dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="30dp"
+        android:text="TextView"
+        android:textColor="#100F0F"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tex2" />
+
+    <TextView
+        android:id="@+id/tex4"
+        android:layout_width="333dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="30dp"
+        android:text="TextView"
+        android:textColor="#121111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tex3" />
+
+    <TextView
+        android:id="@+id/tex5"
+        android:layout_width="333dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="30dp"
+        android:text="TextView"
+        android:textColor="#0B0A0A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tex4" />
+
+    <TextView
+        android:id="@+id/tex6"
+        android:layout_width="333dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="30dp"
+        android:text="TextView"
+        android:textColor="#0C0C0C"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tex5" />
+
+    <TextView
+        android:id="@+id/tex7"
+        android:layout_width="333dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="30dp"
+        android:text="TextView"
+        android:textColor="#0B0A0A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tex6" />
+
+    <TextView
+        android:id="@+id/tex8"
+        android:layout_width="333dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="30dp"
+        android:text="TextView"
+        android:textColor="#070707"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tex7" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#2EB117"
+        android:onClick="di"
+        android:text="Regresar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tex8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
